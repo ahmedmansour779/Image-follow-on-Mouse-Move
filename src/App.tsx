@@ -8,6 +8,7 @@ function App() {
   const tl2 = gsap.timeline();
   const cursor = useRef<HTMLDivElement | null>(null);
   const h1 = useRef<HTMLDivElement | null>(null);
+
   let posX = 0;
   let posY = 0;
   let mouseX = 0;
