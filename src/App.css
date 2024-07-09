@@ -1,0 +1,17 @@
+body {
+    background-color: #121212;
+    overflow: hidden;
+}
+
+.cursor-follow {
+    position: absolute;
+    background: url(./assets/img.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    width: 300px;
+    mix-blend-mode: difference;
+    height: 400px;
+    z-index: 2;
+    user-select: none;
+    pointer-events: none;
+    transform: translate(5px, 5px);
+}
